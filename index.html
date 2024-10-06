@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/edbbdfe6f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/name logo3.png"  class="logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">INTERESTS</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p> WEB DEVELOPER</p>
+                <h1>Hi, I'm <span> Radhika Gupta </span>from <br>Noida , uttar pradesh</h1>
+
+            </div>
+        </div>
+
+    </div>
+<!-------about-------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.jpeg"  >
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title"> About Me:</h1>
+                <p>"A passionate and detail-oriented MCA graduate with strong problem-solving skills and a keen interest in software development. Skilled in programming, web development, and UI/UX design. Eager to apply technical expertise to real-world challenges, while continuously learning and adapting to new technologies in a dynamic work environment."</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="openTab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="openTab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li> <span> UI/UX</span><br>Designing web interfaces </li>
+                        <li> <span> Web Development</span><br>Websites Development </li>
+                        <li> <span> Java/sql</span><br>Coding in Java ,sql  </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li> <span> june 2024-September 2024</span><br>Internship as a project Coordinator in Miracuves Technology </li>
+                        <li> <span> july 2023-October 2023</span><br>Internship as python Developer in Infovirtech Private limited   </li>
+                    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li> <span>2024</span><br>MCA from Sharda University (9.2 CGPA)</li>
+                        <li> <span>2022</span><br> Bsc(Maths and computer Science) from University Of Allahabad (84%)</li>
+                        <li> <span>2019</span><br> 12th from BKD Aldrich Public School ,Orai (87%)</li>
+                        <li> <span>2017</span><br> 10th from BKD Aldrich Public School ,Orai (10 CGPA)</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------services------------->
+    <div id="services">
+         <div class="container">
+             <h1 class="sub-title">My Interests</h1>
+             <div class="services-list">
+                 <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>"Skilled in web design, with a strong foundation in creating user-friendly, responsive websites. Proficient in HTML, CSS and JavaScript. Focused on delivering visually appealing interfaces with seamless functionality, ensuring optimal user experience across devices. Adept at collaborating with teams to meet project goals."</p>
+                <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>"Experienced in UI/UX design, specializing in creating intuitive, user-centered interfaces that enhance the overall user experience. Proficient in wireframing, prototyping, and design tools like Figma and Adobe XD. Skilled at conducting user research and testing to optimize designs for functionality, aesthetics, and accessibility across platforms.".</p>
+                <a href="#">Learn More</a>
+                </div>
+                </div>
+             </div>
+            </div>
+            <!------------------portfolio-------->
+            <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/music player (1).jpg">
+                        <div class="layer">
+                            <h3><b>Music Player</b></h3>
+                            <p>The site is useful to listen to one of my favorite song</p>
+                            <a href="images/music player/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/stone paper scissorrrrr (1).webp">
+                        <div class="layer">
+                            <h3><b>Stone-Paper-scissor</b></h3>
+                            <p>The site is useful to play Stone paper scissor game when we're alone.</p>
+                            <a href="images/stone paper scissor/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/weather app (2).webp">
+                        <div class="layer">
+                            <h3><b>Weather App</b></h3>
+                            <p>The site is useful to find the whether condition in various cities.</p>
+                            <a href="images/weather app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+
+            </div>
+            </div>
+<!------------------contact----------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>guptaradhika6388@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8756863126</p>
+                    <div class="social-icons">
+                        <a href="linkedin.com/in/radhika-gupta-00346a220"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/guptaradhika000"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://github.com/guptaradhika00"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/My Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+                    <div class="contact-right">
+                        <form >
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="E-Mail" placeholder="Your E-Mail" required>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">SUBMIT</button>
+
+                        </form>
+
+                    </div>
+        </div>
+         
+    </div>
+<div class="copyright">
+    <p>Copyright@Radhika,Made with <i class="fa-solid fa-heart"></i></p>
+</div>
+</div>
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
